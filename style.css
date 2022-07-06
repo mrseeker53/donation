@@ -1,3 +1,162 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/* ------------------- Background Section Start ---------------------- */
+
+.background {
+    background-image: linear-gradient(to top, rgba(10, 10, 10, 0.92), rgba(158, 149, 149, 0.24)), url("images/donation2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px
+}
+
+.bg-text {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    color: #ffffff;
+}
+
+.slogan {
+    font-size: 60px;
+    margin: 0 20%;
+    padding-bottom: 30px;
+}
+
+.motivation {
+    margin: 0 25% 40px;
+    font-size: 18px;
+}
+
+.donate-now {
+    text-decoration: none;
+    background-color: #e05840;
+    color: #ffffff;
+    padding: 10px 14px;
+    border-radius: 4px;
+}
+
+/* ------------------- Background Section End ---------------------- */
+
+
+/* ------------------- Donate Today Section Start ---------------------- */
+
+.today {
+    text-align: center;
+}
+
+.donate {
+    font-size: 40px;
+    margin: 0 20%;
+    padding-top: 7%;
+    padding-bottom: 20px;
+}
+
+.amount p {
+    display: flex;
+    flex-direction: row;
+}
+
+.currency {
+    border: none;
+}
+
+.h-rule {
+    width: 53%;
+    margin-bottom: 30px;
+}
+
+
+
+/* ------------------- Donate Today Section End ---------------------- */
+
+
+/* ------------------- Donate Plan Section Start ---------------------- */
+.donate-plan {
+    text-align: center;
+}
+
+.choose {
+    display: flex;
+
+}
+
+
+/* ------------------- Donate Plan Section End ---------------------- */
+
+
+/* ------------------- Contact Section Start ---------------------- */
+.contact {
+    text-align: center;
+}
+
+.user {
+    position: relative;
+}
+
+/* ------------------- Contact Section End ---------------------- */
+
+
+/* ------------------- Updates Section Start ---------------------- */
+.updates {
+    text-align: center;
+    margin: 90px 0;
+}
+
+.form h1 {
+    font-size: 40px;
+}
+
+.form p {
+    font-size: 18px;
+    margin: 0 30% 30px;
+}
+
+.subscribe {
+    background-color: #fff4d6;
+    padding: 60px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.sub-email {
+    padding: 1% 2%;
+    border-radius: 4px;
+    margin-right: -10px;
+}
+
+.sub-btn {
+    padding: 1% 5%;
+    background-color: #e05840;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-left: -10px;
+}
+
+/* ------------------- Updates Section End ---------------------- */
+
+
+/* ------------------- Footer Section Start ---------------------- */
+footer {
+    text-align: center;
+    background-color: #000000;
+    padding: 20px 0;
+    margin: 0 -8px -8px -8px;
+}
+
+footer h2 {
+    color: #e05840;
+    font-style: italic;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+/* ------------------- Footer Section End ---------------------- */
