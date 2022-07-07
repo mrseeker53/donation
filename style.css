@@ -219,17 +219,17 @@ body {
 }
 
 .sub-email {
-    padding: 1% 2%;
+    padding: 2% 12% 2% 2%;
     border-radius: 4px;
-    margin-right: -10px;
+    margin-right: -12px;
 }
 
 .sub-btn {
-    padding: 1% 5%;
+    padding: 2% 8% 2% 4%;
     background-color: #e05840;
     color: #ffffff;
     border-radius: 4px;
-    margin-left: -10px;
+    margin-left: 3px;
 }
 
 /* ------------------- Updates Section End ---------------------- */
