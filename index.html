@@ -59,7 +59,8 @@
                     <p>5000tk</p>
                 </div>
             </div>
-            <input class="currency" type="currency" placeholder="Other Amount (Taka)" />
+            <input class="currency" type="currency" pattern="0-9" data-type="currency"
+                placeholder="Other Amount (Taka)" />
             <hr class="h-rule">
             <a class="donate-now" href="#">Donate Now</a>
         </div>
@@ -100,13 +101,15 @@
     <section class="contact">
         <div class="info">
             <h1>Leave your message</h1>
-            <form class="user" action="#">
-                <input class="name" name="name" type="text" placeholder="Name" />
-                <input class="email" name="email" type="email" placeholder="Email" />
-                <textarea id="message" class="required" name="message" rows="10" cols="50"
-                    placeholder="Message"></textarea><br>
-                <button type="submit">Send Message</button>
-            </form>
+            <div class="container">
+                <form action="#">
+                    <input id="name" type="text" name="name" placeholder="Name" /><br>
+                    <input id="email" type="email" name="email" placeholder="Email" /><br>
+                    <textarea id="message" name="message" rows="13" cols="50" placeholder="Type your comments here...">
+                    </textarea><br>
+                    <button id="btn-submit" type="submit">Send Message</button>
+                </form>
+            </div>
         </div>
     </section>
     <!-- ------------- Contact Section End ---------------- -->
