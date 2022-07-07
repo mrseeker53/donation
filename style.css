@@ -166,6 +166,10 @@ body {
     text-align: center;
 }
 
+.info h1 {
+    font-size: 40px;
+}
+
 .container {
     background-color: #edf5f6;
     margin: 0 -7px;
