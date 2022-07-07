@@ -47,7 +47,7 @@ body {
 
 /* ------------------- Donate Today Section Start ---------------------- */
 
-.today {
+.donate-today {
     text-align: center;
 }
 
@@ -58,21 +58,67 @@ body {
     padding-bottom: 20px;
 }
 
-.amount p {
+.amount {
     display: flex;
-    flex-direction: row;
+}
+
+.two {
+    background-color: #ffeeee;
+    color: #e74b2f;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 24px 12px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: 2px solid #e74b2f;
+}
+
+.one {
+    background-color: #fcf9f9;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 24px 8px 10px 29%;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.three {
+    background-color: #fcf9f9;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 24px 12px;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.four {
+    background-color: #fcf9f9;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 24px 12px;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.five {
+    background-color: #fcf9f9;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 24px 12px;
+    padding: 12px 24px;
+    border-radius: 4px;
 }
 
 .currency {
     border: none;
+    padding: 5px 0 5px 3%;
+
 }
 
 .h-rule {
     width: 53%;
     margin-bottom: 30px;
 }
-
-
 
 /* ------------------- Donate Today Section End ---------------------- */
 
@@ -87,6 +133,29 @@ body {
 
 }
 
+.food {
+    background-color: #edf5f6;
+    text-align: left;
+    padding: 50px 20px 30px 15px;
+    margin: 0 18px 50px 10%;
+    border-radius: 4px;
+}
+
+.shelter {
+    background-color: #ffeeee;
+    text-align: left;
+    padding: 50px 20px 40px 15px;
+    margin: 0 18px 50px 0;
+    border-radius: 4px;
+}
+
+.medicine {
+    background-color: #fff4d6;
+    text-align: left;
+    padding: 50px 20px 40px 15px;
+    margin: 0 10% 50px 0;
+    border-radius: 4px;
+}
 
 /* ------------------- Donate Plan Section End ---------------------- */
 
