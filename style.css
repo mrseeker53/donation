@@ -134,7 +134,7 @@ body {
 
 }
 
-.food {
+.food1 {
     background-color: #edf5f6;
     text-align: left;
     padding: 50px 20px 30px 15px;
@@ -142,7 +142,7 @@ body {
     border-radius: 4px;
 }
 
-.shelter {
+.shelter1 {
     background-color: #ffeeee;
     text-align: left;
     padding: 50px 20px 40px 15px;
@@ -150,7 +150,7 @@ body {
     border-radius: 4px;
 }
 
-.medicine {
+.medicine1 {
     background-color: #fff4d6;
     text-align: left;
     padding: 50px 20px 40px 15px;
